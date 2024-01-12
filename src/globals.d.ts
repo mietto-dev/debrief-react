@@ -12,3 +12,5 @@ declare module "styled-components" {
 
 declare module "*.woff";
 declare module "*.woff2";
+
+declare module "react-pixelify";

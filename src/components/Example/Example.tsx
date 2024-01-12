@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Pixelated } from "../Pixelated/Pixelated";
 
 // FRAMES
 const Frame = styled.div`
@@ -128,13 +129,7 @@ const MainContentLeft: React.FC<{
 }> = ({ children, ...props }) => {
   return (
     <Frame style={{ gridColumn: "col", gridRow: "row 3" }}>
-      <p>
-        BIG CONTENT HERE BIG CONTENT HERE BIG CONTENT HERE BIG CONTENT HERE BIG
-        CONTENT HERE BIG CONTENT HERE BIG CONTENT HERE BIG CONTENT HERE BIG
-        CONTENT HERE BIG CONTENT HERE BIG CONTENT HERE BIG CONTENT HERE BIG
-        CONTENT HERE BIG CONTENT HERE BIG CONTENT HERE BIG CONTENT HERE BIG
-        CONTENT HERE{" "}
-      </p>
+      <Pixelated path="/src/assets/images/profile.jpg" />
     </Frame>
   );
 };
