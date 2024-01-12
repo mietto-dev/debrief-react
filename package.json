@@ -2,6 +2,8 @@
   "name": "@debrief/react",
   "version": "0.0.1",
   "description": "React UI library inspired by pixelated, old school shooting games",
+  "author": "Felipe Mietto <mietto.ti@gmail.com>",
+  "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
@@ -11,8 +13,9 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
-  "author": "Felipe Mietto <mietto.ti@gmail.com>",
-  "license": "MIT",
+  "dependencies": {
+    "tslib": "^2.6.2"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
@@ -57,8 +60,5 @@
   "bugs": {
     "url": "https://github.com/mietto-dev/debrief-react/issues"
   },
-  "homepage": "https://github.com/mietto-dev/debrief-react#readme",
-  "dependencies": {
-    "tslib": "^2.6.2"
-  }
+  "homepage": "https://github.com/mietto-dev/debrief-react#readme"
 }
