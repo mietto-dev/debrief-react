@@ -1,5 +1,5 @@
 {
-  "name": "debrief-react",
+  "name": "@debrief/react",
   "version": "0.0.1",
   "description": "React UI library inspired by pixelated, old school shooting games",
   "main": "dist/cjs/index.js",
@@ -12,7 +12,7 @@
     "build-storybook": "storybook build"
   },
   "author": "Felipe Mietto <mietto.ti@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
@@ -42,5 +42,20 @@
     "storybook": "^7.6.7",
     "styled-components": "^6.1.6",
     "typescript": "^5.3.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mietto-dev/debrief-react.git"
+  },
+  "keywords": [
+    "crt",
+    "video-game",
+    "old-school",
+    "pixel",
+    "art"
+  ],
+  "bugs": {
+    "url": "https://github.com/mietto-dev/debrief-react/issues"
+  },
+  "homepage": "https://github.com/mietto-dev/debrief-react#readme"
 }
