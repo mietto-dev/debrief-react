@@ -23,3 +23,9 @@ Example profile page
 ## Contribute
 
 ## Thanks and credits
+
+https://github.com/nikoferro/react-pixelify
+
+https://dribbble.com/shots/22429841-Sophia-Knight-Software-Developer-Portfolio
+
+https://codepen.io/MatteoPeroniDev/pen/GRYMyvw
