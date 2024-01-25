@@ -14,6 +14,8 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@debrief/pixelate": "^0.0.1",
+    "react-image-filter": "^0.1.2",
     "react-pixelify": "^0.2.2",
     "tslib": "^2.6.2"
   },
@@ -57,7 +59,7 @@
     "video-game",
     "old-school",
     "pixel",
-    "art"
+    "pixel-art"
   ],
   "bugs": {
     "url": "https://github.com/mietto-dev/debrief-react/issues"
